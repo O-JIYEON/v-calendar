@@ -14,6 +14,7 @@ const install = (app: App, defaults: Defaults = {}) => {
   }
 };
 
+
 export default { install };
 export * from './components';
 export { setupDefaults as setupCalendar } from './utils/defaults';
